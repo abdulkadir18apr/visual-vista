@@ -1,0 +1,44 @@
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    h2{
+        cursor: pointer;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    ul{
+        display: flex;
+        gap: 2rem;
+        font-weight:700;
+        font-size: larger;
+        li{
+            list-style: none;
+            padding: 8px;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }   
+    } 
+    ul li:last-child{
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (width<=500px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap:30px
+    }
+    
+}
