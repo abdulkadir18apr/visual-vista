@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { RWebShare } from "react-web-share";
 
 import "./image-details.scss";
+import { Loader } from "../component/Loader";
 
 
 export const ImageDetails = ({ imageId }) => {
@@ -49,7 +50,7 @@ export const ImageDetails = ({ imageId }) => {
 
 
     if (image.loading) {
-        return <h1>loading....</h1>
+        return <Loader/>
     }
     if (image.error) {
         return <h1>Error....</h1>

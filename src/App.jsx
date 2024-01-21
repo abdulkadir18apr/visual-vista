@@ -7,6 +7,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Home } from './Home/Home';
 import { Dashboard } from './Dashboard/Dashboard';
+import { Loader } from './component/Loader';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/signup' element={<Signup />} />
         <Route path='/dashboard' element={<Dashboard />} />
       </Routes>
+
       <ToastContainer position="top-right"
         autoClose={4996}
         hideProgressBar={false}

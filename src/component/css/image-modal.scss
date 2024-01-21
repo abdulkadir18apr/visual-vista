@@ -23,7 +23,7 @@
     background: white;
     border-radius: 8px;
     position: relative;
-    max-width: 70%;
+    max-width: 90%;
     max-height:80%;
     overflow: auto;
     display: flex;
@@ -38,3 +38,8 @@
 
   }
   
+
+  @media (width<=1150px) {
+    
+    
+  }

@@ -21,7 +21,8 @@
     "react-router-dom": "^6.21.3",
     "react-toastify": "^10.0.3",
     "react-web-share": "^2.0.2",
-    "sass": "^1.70.0"
+    "sass": "^1.70.0",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

@@ -10,12 +10,12 @@
         padding: 1rem;
         gap:20px;
         .image{
-            // width: 60%;
+             width: 50%;
          
     
             img{
-                // width: 100%;
-                // height: 100%;
+                width: 100%;
+            
                 border-radius: 20px;
             }
         }
@@ -111,4 +111,29 @@
         gap:20px;
         padding:10px 6rem ;
     }
+}
+
+@media (width<=1150px) {
+       .image-details-container{
+        align-items: center;
+        .image-details{
+          
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .image{
+                 width: 90%;
+             
+        
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 20px;
+                }
+            }
+        }
+        .tags{
+          
+        }
+       }
 }
